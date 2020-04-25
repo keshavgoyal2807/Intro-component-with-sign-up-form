@@ -142,6 +142,7 @@ body{
     }
 
     .content h1{
+        width: 80%;
         text-align: center;
         font-weight: 700;
         font-size: 35px;
@@ -150,6 +151,7 @@ body{
         margin-bottom: 15px;
     }
     .content p{
+        width: 80%;
         text-align: center;
         font-weight: 400;
         font-size: 15px;
