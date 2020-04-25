@@ -113,6 +113,34 @@ body{
         font-size: 10px;
         color:  hsl(249, 10%, 26%) ;
     }
+    label{
+        width: 100%;
+        position: relative;
+    }
+    .error{
+        position: absolute;
+        top:12px;
+        right: 10px;
+        display: none;
+    }
+    .errorp{
+        position: absolute;
+        bottom: -5px;
+        right: 0px;
+        color: red;
+        margin: 5px;
+        font-size: 10px;
+        display: none;
+    }
+    .errorp1{
+        position: absolute;
+        top:12px;
+        left: 3px;
+        color: red;
+        margin: 5px;
+        font-size: 10px;
+        display: none; 
+    }
 }
 
 @media screen and (max-width:600px)

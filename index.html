@@ -31,14 +31,29 @@
       </div>
       <div class="form-details">
         <form class="form">
-          <label for="first_name"></label>
-          <input type="text" id="first_name" class="input" placeholder="First Name" />
-          <label for="last_name"></label>
-          <input type="text" id="last_name" class="input" placeholder="Last Name" />
-          <label for="Email"></label>
-          <input type="email" id="Email" class="input" placeholder="Email Address" />
-          <label for="Password"></label>
-          <input type="password" id="Password" class="input" placeholder="Password" />
+          <label for="first_name">
+            <input type="text" id="first_name" class="input" placeholder="First Name" name="f_n" value=""/>
+            <img class="error errorfn" src="./images/icon-error.svg" alt="error" />
+            <p class="errorp errorfn">First name cannot be empty</p>
+          </label>
+          
+          <label for="last_name">
+            <input type="text" id="last_name" class="input" placeholder="Last Name" name="l_n" value=""/>
+            <img class="error errorln" src="./images/icon-error.svg" alt="error" />
+            <p class="errorp errorln">Lastt name cannot be empty</p>
+          </label>
+
+          <label for="Email">
+            <input type="email" id="Email" class="input" placeholder="Email Address" name="eml" value=""/>
+            <img class="error errore" src="./images/icon-error.svg" alt="error" />
+            <p class="errorp errore">Email cannot be empty</p>
+            <p class="errorp1 errore">email@example/com</p>
+          </label>
+          <label for="Password">
+            <input type="password" id="Password" class="input" placeholder="Password" name="pass" value=""/>
+            <img class="error errorpa" src="./images/icon-error.svg" alt="error" />
+            <p class="errorp errorpa">Password cannot be empty</p>
+          </label>
           <button class="button">Claim your free trial </button>
           <p class="terms">By clicking the button, you are agreeing to our <span style="color: hsl(0, 100%, 74%) ;">Terms and Services</span></p>
         </form>
@@ -53,4 +68,5 @@
     </p>
   </footer>
 </body>
+<script src="index.js" ></script>
 </html>
