@@ -16,7 +16,7 @@ body{
         background-image: url('./images/bg-intro-desktop.png');
         background-size: 100%;
         background-color:hsl(0, 100%, 74%) ;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         display: flex;
         padding: 10px;
         box-sizing: border-box;
@@ -122,7 +122,7 @@ body{
         background-image: url('./images/bg-intro-mobile.png');
         background-size: 100%;
         background-color:hsl(0, 100%, 74%) ;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         display: flex;
         padding: 10px;
         box-sizing: border-box;
